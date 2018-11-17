@@ -18,3 +18,9 @@ This project is being developed very transparently, and I'm tracking progress an
     192.168.10.10 waparksproject.local
     ```
 1. Visit the local site: http://waparksproject.local/
+
+## Technologies & Processes
+
+- PHP 7.2 / Laravel 5.7
+- VueJS 2.5
+- [Git HubFlow](https://datasift.github.io/gitflow/TheHubFlowTools.html)
