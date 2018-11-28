@@ -36,7 +36,7 @@ class ParksTableSeeder extends Seeder
 	    	$counties = (array) explode(',', $park['county']);
 	    	foreach ($counties as $countyName) {
 	    		$countyId = $this->fetchCountyId(trim(str_slug($countyName)));
-	    		DB::table('park_county')->insert([
+	    		DB::table('county_park')->insert([
 	    			'park_id' => (int) $parkId,
 	    			'county_id' => (int) $countyId
 	    		]);

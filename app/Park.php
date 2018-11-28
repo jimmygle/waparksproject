@@ -15,4 +15,9 @@ class Park extends Model
     	return $this->belongsToMany('App\County');
     }
 
+    public function references()
+    {
+    	return $this->hasMany('App\Reference');
+    }
+
 }
