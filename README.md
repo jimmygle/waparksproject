@@ -8,10 +8,11 @@ This project is being developed very transparently, and I'm tracking progress an
 
 ## Local Environment Setup
 
-1. Clone the repository.
+1. Clone the repository and `cd waparksproject`.
 1. `composer install`
-1. `yarn install`
-1. `php /vendor/bin/homestead make`
+1. `cp .env.example .env`
+1. `yarn install` (or `npm install`)
+1. `php ./vendor/bin/homestead make`
 1. `vagrant up`
 1. Update `/etc/hosts`:
     ```
